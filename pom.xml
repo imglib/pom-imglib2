@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>4.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>net.imglib2</groupId>
+	<artifactId>pom-imglib2</artifactId>
+	<version>3.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>ImgLib2 Projects</name>
+	<url>http://imglib2.net/</url>
+	<inceptionYear>2009</inceptionYear>
+	<organization>
+		<name>ImgLib2</name>
+		<url>http://imglib2.net/</url>
+	</organization>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>StephanPreibisch</id>
+			<name>Stephan Preibisch</name>
+			<email>stephan.preibisch@gmx.de</email>
+			<url>http://fly.mpi-cbg.de/~preibisch/</url>
+			<organization>MPI-CBG at Dresden</organization>
+			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>tpietzsch</id>
+			<name>Tobias Pietzsch</name>
+			<email>tobias.pietzsch@gmail.com</email>
+			<organization>MPI-CBG at Dresden</organization>
+			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>axtimwalde</id>
+			<name>Stephan Saalfeld</name>
+			<email>saalfeld@mpi-cbg.de</email>
+			<url>http://fly.mpi-cbg.de/~saalfeld/</url>
+			<organization>MPI-CBG at Dresden</organization>
+			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>ctrueden</id>
+			<name>Curtis Rueden</name>
+			<email>ctrueden@wisc.edu</email>
+			<url>http://loci.wisc.edu/people/curtis-rueden</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+		<developer>
+			<id>dietzc</id>
+			<name>Christian Dietz</name>
+			<email>christian.dietz@uni-konstanz.de</email>
+			<url>http://www.informatik.uni-konstanz.de/berthold/mitglieder/christian-dietz/</url>
+			<organization>University of Konstanz</organization>
+			<organizationUrl>http://www.informatik.uni-konstanz.de/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>tinevez</id>
+			<name>Jean-Yves Tinevez</name>
+			<email>jean-yves.tinevez@pasteur.fr</email>
+			<url>http://www.pasteur.fr/ip/easysite/pasteur/fr/recherche/plates-formes-technologiques/imagopole/plates-formes-imagopole/la-plate-forme-d-imagerie-dynamique/equipe-pfid/equipe-pfid-jyt</url>
+			<organization>Institut Pasteur</organization>
+			<organizationUrl>http://www.pasteur.fr/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
+			<id>dscho</id>
+			<name>Johannes Schindelin</name>
+			<email>johannes.schindelin@gmx.de</email>
+			<url>http://loci.wisc.edu/people/johannes-schindelin</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</developer>
+		<developer>
+			<id>LeeKamentsky</id>
+			<name>Lee Kamentsky</name>
+			<email>leek@broadinstitute.org</email>
+			<url>http://www.broadinstitute.org/~leek/</url>
+			<organization>Broad Institute of MIT and Harvard</organization>
+			<organizationUrl>http://www.broadinstitute.org/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-5</timezone>
+		</developer>
+	</developers>
+	<contributors>
+		<contributor>
+			<name>Barry DeZonia</name>
+			<url>http://loci.wisc.edu/people/barry-dezonia</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</contributor>
+		<contributor>
+			<name>Albert Cardona</name>
+			<email>sapristi@gmail.com</email>
+			<url>http://albert.rierol.net/</url>
+			<organization>Institute of Neuroinformatics, Uni/ETH Zürich</organization>
+			<organizationUrl>http://www.ini.uzh.ch/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</contributor>
+		<contributor>
+			<name>Larry Lindsey</name>
+			<email>llindsey@clm.utexas.edu</email>
+			<url>http://synapses.clm.utexas.edu/lab/lindsey/lindsey.htm</url>
+			<organization>University of Texas at Austin</organization>
+			<organizationUrl>http://www.utexas.edu/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</contributor>
+		<contributor>
+			<name>Mark Hiner</name>
+			<email>hiner@wisc.edu</email>
+			<url>http://loci.wisc.edu/people/mark-hiner</url>
+			<organization>UW-Madison LOCI</organization>
+			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-6</timezone>
+		</contributor>
+		<contributor>
+			<name>Grant Harris</name>
+			<email>gharris@mbl.edu</email>
+			<url>http://loci.wisc.edu/people/grant-harris</url>
+			<organization>MBL at Woods Hole</organization>
+			<organizationUrl>http://www.mbl.edu/</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-5</timezone>
+		</contributor>
+		<contributor><name>Aivar Grislis</name></contributor>
+		<contributor><name>Martin Horn</name></contributor>
+		<contributor><name>Nick Perry</name></contributor>
+		<contributor><name>Michael Zinsmaier</name></contributor>
+		<contributor><name>Steffen Jaensch</name></contributor>
+		<contributor><name>Jan Funke</name></contributor>
+		<contributor><name>Mark Longair</name></contributor>
+		<contributor><name>Dimiter Prodanov</name></contributor>
+	</contributors>
+
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ-devel</name>
+			<subscribe>http://imagej.net/mailman/listinfo/imagej-devel</subscribe>
+			<unsubscribe>http://imagej.net/mailman/listinfo/imagej-devel</unsubscribe>
+			<post>imagej-devel@imagej.net</post>
+			<archive>http://imagej.net/pipermail/imagej-devel/</archive>
+		</mailingList>
+		<mailingList>
+			<name>Fiji-devel</name>
+			<subscribe>http://groups.google.com/group/fiji-devel</subscribe>
+			<unsubscribe>http://groups.google.com/group/fiji-devel</unsubscribe>
+			<post>fiji-devel@googlegroups.com</post>
+			<archive>http://groups.google.com/group/fiji-devel</archive>
+		</mailingList>
+	</mailingLists>
+
+	<scm>
+		<connection>scm:git:git://github.com/imglib/pom-imglib2</connection>
+		<developerConnection>scm:git:git@github.com:imglib/pom-imglib2</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/imglib/pom-imglib2</url>
+	</scm>
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/view/ImgLib2/</url>
+	</ciManagement>
+
+	<properties>
+		<!-- If two artifacts on the classpath use two different versions of the
+		     same dependency, behavior is inconsistent at best, and often broken.
+		     The following properties facilitate consistency of dependency
+		     versions between various projects in the ImgLib2 software stack.
+
+		     When possible, we advise declaring your ImgLib2 dependencies without a
+		     <version> since the versions of core ImgLib2 components are managed in
+		     this POM's <dependencyManagement> section.
+
+		     If you need to override the version of a particular component, then
+		     simply override that component's version property in your POM's
+		     <properties> section. dependencies rather than hardcoding them. -->
+
+		<!-- ImgLib2 - https://github.com/imglib -->
+
+		<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
+		<imglib2.version>2.0.0</imglib2.version>
+
+		<!-- ImgLib2 Algorithms - https://github.com/imglib2/imglib2-algorithms -->
+		<imglib2-algorithms.version>2.0.0-beta-27</imglib2-algorithms.version>
+
+		<!-- ImgLib2 Algorithms GPL - https://github.com/imglib2/imglib2-algorithms-gpl -->
+		<imglib2-algorithms-gpl.version>2.0.0-beta-27</imglib2-algorithms-gpl.version>
+
+		<!-- ImgLib2 IJ - https://github.com/imglib2/imglib2-ij -->
+		<imglib2-ij.version>2.0.0-beta-27</imglib2-ij.version>
+
+		<!-- ImgLib2 RealTransform - https://github.com/imglib2/imglib2-realtransform -->
+		<imglib2-realtransform.version>2.0.0-beta-27</imglib2-realtransform.version>
+
+		<!-- ImgLib2 Scripting - https://github.com/imglib2/imglib2-scripting -->
+		<imglib2-scripting.version>2.0.0-beta-27</imglib2-scripting.version>
+
+		<!-- ImgLib2 UI - https://github.com/imglib/imglib2-ui -->
+		<imglib2-ui.version>2.0.0-beta-27</imglib2-ui.version>
+
+		<!-- Other managed components -->
+
+		<!-- MPICBG image transformations - https://github.com/axtimwalde/mpicbg -->
+		<mpicbg.version>20111128</mpicbg.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- ImgLib2 - https://github.com/imglib -->
+
+			<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>imglib2</artifactId>
+				<version>${imglib2.version}</version>
+			</dependency>
+
+			<!-- ImgLib2 Algorithms - https://github.com/imglib/imglib2-algorithms -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>imglib2-algorithms</artifactId>
+				<version>${imglib2-algorithms.version}</version>
+			</dependency>
+
+			<!-- ImgLib2 Algorithms GPL - https://github.com/imglib/imglib2-algorithms-gpl -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>imglib2-algorithms-gpl</artifactId>
+				<version>${imglib2-algorithms-gpl.version}</version>
+			</dependency>
+
+			<!-- ImgLib2 IJ - https://github.com/imglib2/imglib2-ij -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>imglib2-ij</artifactId>
+				<version>${imglib2-ij.version}</version>
+			</dependency>
+
+			<!-- ImgLib2 RealTransform - https://github.com/imglib2/imglib2-realtransform -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>imglib2-realtransform</artifactId>
+				<version>${imglib2-realtransform.version}</version>
+			</dependency>
+
+			<!-- ImgLib2 Scripting - https://github.com/imglib2/imglib2-scripting -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>imglib2-scripting</artifactId>
+				<version>${imglib2-scripting.version}</version>
+			</dependency>
+
+			<!-- ImgLib2 UI - https://github.com/imglib/imglib2-ui -->
+			<dependency>
+				<groupId>net.imglib2</groupId>
+				<artifactId>imglib2-ui</artifactId>
+				<version>${imglib2-ui.version}</version>
+			</dependency>
+
+			<!-- Other managed components -->
+
+			<!-- MPICBG image transformations - https://github.com/axtimwalde/mpicbg -->
+			<dependency>
+				<groupId>mpicbg</groupId>
+				<artifactId>mpicbg</artifactId>
+				<version>${mpicbg.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>mpicbg</groupId>
+				<artifactId>mpicbg_</artifactId>
+				<version>${mpicbg.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<configuration>
+					<licenseName>bsd_2</licenseName>
+					<organizationName>Stephan Preibisch, Tobias Pietzsch, Barry DeZonia,
+Stephan Saalfeld, Albert Cardona, Curtis Rueden, Christian Dietz, Jean-Yves
+Tinevez, Johannes Schindelin, Lee Kamentsky, Larry Lindsey, Grant Harris,
+Mark Hiner, Aivar Grislis, Martin Horn, Nick Perry, Michael Zinsmaier,
+Steffen Jaensch, Jan Funke, Mark Longair, and Dimiter Prodanov.</organizationName>
+					<projectName>ImgLib2: a general-purpose, multidimensional image processing library.</projectName>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<profiles>
+		<!-- This developer profile makes it easy to pin to SNAPSHOT versions.
+		     Add an empty dev.imglib2 file in your ~/.scijava directory, and
+		     dependencies will automatically update! You may also need to refresh
+		     your IDE; e.g., in Eclipse: right click, Maven > Update Project... -->
+		<profile>
+			<id>dev.imglib2</id>
+			<activation>
+				<file>
+					<exists>${user.home}/.scijava/dev.imglib2</exists>
+				</file>
+			</activation>
+			<properties>
+				<imglib2.version>LATEST</imglib2.version>
+				<imglib2-algorithms.version>LATEST</imglib2-algorithms.version>
+				<imglib2-algorithms-gpl.version>LATEST</imglib2-algorithms-gpl.version>
+				<imglib2-ij.version>LATEST</imglib2-ij.version>
+				<imglib2-realtransform.version>LATEST</imglib2-realtransform.version>
+				<imglib2-scripting.version>LATEST</imglib2-scripting.version>
+				<imglib2-ui.version>LATEST</imglib2-ui.version>
+			</properties>
+			<repositories>
+				<repository>
+					<id>imagej.public</id>
+					<url>http://maven.imagej.net/content/groups/public</url>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>imagej.public</id>
+					<url>http://maven.imagej.net/content/groups/public</url>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
+	</profiles>
+</project>
