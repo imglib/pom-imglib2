@@ -244,14 +244,14 @@
 		<!-- ImgLib2 - https://github.com/imglib/imglib2 -->
 		<imglib2.version>2.0.0</imglib2.version>
 
-		<!-- ImgLib2 Algorithms - https://github.com/imglib2/imglib2-algorithms -->
-		<imglib2-algorithms.version>2.0.0-beta-27</imglib2-algorithms.version>
+		<!-- ImgLib2 Algorithms - https://github.com/imglib2/imglib2-algorithm -->
+		<imglib2-algorithm.version>0.1.0</imglib2-algorithm.version>
 
-		<!-- ImgLib2 Algorithms FFT - https://github.com/imglib2/imglib2-algorithms-fft -->
-		<imglib2-algorithms-fft.version>0.1.0</imglib2-algorithms-fft.version>
+		<!-- ImgLib2 Algorithms FFT - https://github.com/imglib2/imglib2-algorithm-fft -->
+		<imglib2-algorithm-fft.version>0.1.0</imglib2-algorithm-fft.version>
 
-		<!-- ImgLib2 Algorithms GPL - https://github.com/imglib2/imglib2-algorithms-gpl -->
-		<imglib2-algorithms-gpl.version>2.0.0-beta-27</imglib2-algorithms-gpl.version>
+		<!-- ImgLib2 Algorithms GPL - https://github.com/imglib2/imglib2-algorithm-gpl -->
+		<imglib2-algorithm-gpl.version>0.1.0</imglib2-algorithm-gpl.version>
 
 		<!-- ImgLib2 IJ - https://github.com/imglib2/imglib2-ij -->
 		<imglib2-ij.version>2.0.0-beta-27</imglib2-ij.version>
@@ -262,8 +262,8 @@
 		<!-- ImgLib2 ROI - https://github.com/imglib2/imglib2-roi -->
 		<imglib2-roi.version>0.1.0</imglib2-roi.version>
 
-		<!-- ImgLib2 Scripting - https://github.com/imglib2/imglib2-scripting -->
-		<imglib2-scripting.version>2.0.0-beta-27</imglib2-scripting.version>
+		<!-- ImgLib2 Scripting - https://github.com/imglib2/imglib2-script -->
+		<imglib2-script.version>0.1.0</imglib2-script.version>
 
 		<!-- ImgLib2 UI - https://github.com/imglib/imglib2-ui -->
 		<imglib2-ui.version>2.0.0-beta-27</imglib2-ui.version>
@@ -285,25 +285,25 @@
 				<version>${imglib2.version}</version>
 			</dependency>
 
-			<!-- ImgLib2 Algorithms - https://github.com/imglib/imglib2-algorithms -->
+			<!-- ImgLib2 Algorithms - https://github.com/imglib/imglib2-algorithm -->
 			<dependency>
 				<groupId>net.imglib2</groupId>
-				<artifactId>imglib2-algorithms</artifactId>
-				<version>${imglib2-algorithms.version}</version>
+				<artifactId>imglib2-algorithm</artifactId>
+				<version>${imglib2-algorithm.version}</version>
 			</dependency>
 
-			<!-- ImgLib2 Algorithms FFT - https://github.com/imglib/imglib2-algorithms-fft -->
+			<!-- ImgLib2 Algorithms FFT - https://github.com/imglib/imglib2-algorithm-fft -->
 			<dependency>
 				<groupId>net.imglib2</groupId>
-				<artifactId>imglib2-algorithms-fft</artifactId>
-				<version>${imglib2-algorithms-fft.version}</version>
+				<artifactId>imglib2-algorithm-fft</artifactId>
+				<version>${imglib2-algorithm-fft.version}</version>
 			</dependency>
 
-			<!-- ImgLib2 Algorithms GPL - https://github.com/imglib/imglib2-algorithms-gpl -->
+			<!-- ImgLib2 Algorithms GPL - https://github.com/imglib/imglib2-algorithm-gpl -->
 			<dependency>
 				<groupId>net.imglib2</groupId>
-				<artifactId>imglib2-algorithms-gpl</artifactId>
-				<version>${imglib2-algorithms-gpl.version}</version>
+				<artifactId>imglib2-algorithm-gpl</artifactId>
+				<version>${imglib2-algorithm-gpl.version}</version>
 			</dependency>
 
 			<!-- ImgLib2 IJ - https://github.com/imglib2/imglib2-ij -->
@@ -327,11 +327,11 @@
 				<version>${imglib2-roi.version}</version>
 			</dependency>
 
-			<!-- ImgLib2 Scripting - https://github.com/imglib2/imglib2-scripting -->
+			<!-- ImgLib2 Scripting - https://github.com/imglib2/imglib2-script -->
 			<dependency>
 				<groupId>net.imglib2</groupId>
-				<artifactId>imglib2-scripting</artifactId>
-				<version>${imglib2-scripting.version}</version>
+				<artifactId>imglib2-script</artifactId>
+				<version>${imglib2-script.version}</version>
 			</dependency>
 
 			<!-- ImgLib2 UI - https://github.com/imglib/imglib2-ui -->
@@ -389,13 +389,13 @@ Steffen Jaensch, Jan Funke, Mark Longair, and Dimiter Prodanov.</organizationNam
 			</activation>
 			<properties>
 				<imglib2.version>LATEST</imglib2.version>
-				<imglib2-algorithms.version>LATEST</imglib2-algorithms.version>
-				<imglib2-algorithms-fft.version>LATEST</imglib2-algorithms-fft.version>
-				<imglib2-algorithms-gpl.version>LATEST</imglib2-algorithms-gpl.version>
+				<imglib2-algorithm.version>LATEST</imglib2-algorithm.version>
+				<imglib2-algorithm-fft.version>LATEST</imglib2-algorithm-fft.version>
+				<imglib2-algorithm-gpl.version>LATEST</imglib2-algorithm-gpl.version>
 				<imglib2-ij.version>LATEST</imglib2-ij.version>
 				<imglib2-realtransform.version>LATEST</imglib2-realtransform.version>
 				<imglib2-roi.version>LATEST</imglib2-roi.version>
-				<imglib2-scripting.version>LATEST</imglib2-scripting.version>
+				<imglib2-script.version>LATEST</imglib2-script.version>
 				<imglib2-ui.version>LATEST</imglib2-ui.version>
 			</properties>
 			<repositories>
