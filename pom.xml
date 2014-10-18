@@ -30,6 +30,19 @@
 
 	<developers>
 		<developer>
+			<id>tpietzsch</id>
+			<name>Tobias Pietzsch</name>
+			<email>tobias.pietzsch@gmail.com</email>
+			<organization>MPI-CBG at Dresden</organization>
+			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
+			<roles>
+				<role>maintainer</role>
+				<role>developer</role>
+				<role>architect</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+		<developer>
 			<id>StephanPreibisch</id>
 			<name>Stephan Preibisch</name>
 			<email>stephan.preibisch@gmx.de</email>
@@ -37,19 +50,9 @@
 			<organization>MPI-CBG at Dresden</organization>
 			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
 			<roles>
+				<role>developer</role>
 				<role>architect</role>
-				<role>developer</role>
-			</roles>
-			<timezone>+1</timezone>
-		</developer>
-		<developer>
-			<id>tpietzsch</id>
-			<name>Tobias Pietzsch</name>
-			<email>tobias.pietzsch@gmail.com</email>
-			<organization>MPI-CBG at Dresden</organization>
-			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
-			<roles>
-				<role>developer</role>
+				<role>maintainer</role>
 			</roles>
 			<timezone>+1</timezone>
 		</developer>
@@ -63,6 +66,7 @@
 			<roles>
 				<role>architect</role>
 				<role>developer</role>
+				<role>maintainer</role>
 			</roles>
 			<timezone>+1</timezone>
 		</developer>
