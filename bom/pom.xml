@@ -11,7 +11,7 @@
 
 	<groupId>net.imglib2</groupId>
 	<artifactId>bom-imglib2</artifactId>
-	<version>4.1-SNAPSHOT</version>
+	<version>4.1</version>
 	<packaging>pom</packaging>
 
 	<name>ImgLib2 Bill of Materials</name>
@@ -148,4 +148,8 @@
 		</dependencies>
 	</dependencyManagement>
 
+
+  <scm>
+    <tag>pom-imglib2-4.1</tag>
+  </scm>
 </project>
