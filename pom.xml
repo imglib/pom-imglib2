@@ -234,10 +234,10 @@
 		<bom-imglib2.version>4.1-SNAPSHOT</bom-imglib2.version>
 
 		<!-- ImageJ Bill of Materials - https://github.com/imagej/pom-imagej -->
-		<bom-imagej.version>3.0</bom-imagej.version>
+		<bom-imagej.version>3.1</bom-imagej.version>
 
 		<!-- SCIFIO Bill of Materials - https://github.com/scifio/pom-scifio -->
-		<bom-scifio.version>2.0</bom-scifio.version>
+		<bom-scifio.version>2.1</bom-scifio.version>
 	</properties>
 
 	<dependencyManagement>
