@@ -59,16 +59,16 @@
 		<developer>
 			<id>axtimwalde</id>
 			<name>Stephan Saalfeld</name>
-			<email>saalfeld@mpi-cbg.de</email>
-			<url>http://fly.mpi-cbg.de/~saalfeld/</url>
-			<organization>MPI-CBG at Dresden</organization>
-			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
+			<email>saalfelds@janelia.hhmi.org</email>
+			<url>http://www.janelia.org/lab/saalfeld-lab</url>
+			<organization>HHMI Janelia Research Campus</organization>
+			<organizationUrl>http://www.janelia.org/</organizationUrl>
 			<roles>
 				<role>architect</role>
 				<role>developer</role>
 				<role>maintainer</role>
 			</roles>
-			<timezone>+1</timezone>
+			<timezone>-4</timezone>
 		</developer>
 		<developer>
 			<id>ctrueden</id>
