@@ -48,7 +48,7 @@
 		<imglib2-ij.version>2.0.0-beta-27</imglib2-ij.version>
 
 		<!-- ImgLib2 RealTransform - https://github.com/imglib2/imglib2-realtransform -->
-		<imglib2-realtransform.version>2.0.0-beta-27</imglib2-realtransform.version>
+		<imglib2-realtransform.version>2.0.0-beta-28-SNAPSHOT</imglib2-realtransform.version>
 
 		<!-- ImgLib2 ROI - https://github.com/imglib2/imglib2-roi -->
 		<imglib2-roi.version>0.1.0</imglib2-roi.version>
@@ -57,7 +57,7 @@
 		<imglib2-script.version>0.1.0</imglib2-script.version>
 
 		<!-- ImgLib2 UI - https://github.com/imglib/imglib2-ui -->
-		<imglib2-ui.version>2.0.0-beta-27</imglib2-ui.version>
+		<imglib2-ui.version>2.0.0-beta-28-SNAPSHOT</imglib2-ui.version>
 
 		<!-- Other managed components -->
 
