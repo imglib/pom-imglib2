@@ -72,7 +72,7 @@
 			<organization>UW-Madison LOCI</organization>
 			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
 			<roles>
-				<role>architect</role>
+				<role>maintainer</role>
 				<role>developer</role>
 			</roles>
 			<timezone>-6</timezone>
