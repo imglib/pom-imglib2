@@ -216,7 +216,7 @@
 	</scm>
 	<ciManagement>
 		<system>Jenkins</system>
-		<url>http://jenkins.imagej.net/view/ImgLib2/</url>
+		<url>http://jenkins.imagej.net/job/pom-imglib2/</url>
 	</ciManagement>
 
 	<build>
