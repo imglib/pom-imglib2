@@ -235,12 +235,13 @@
 				<artifactId>license-maven-plugin</artifactId>
 				<configuration>
 					<licenseName>bsd_2</licenseName>
-					<organizationName>Tobias Pietzsch, Stephan Preibisch, Barry DeZonia,
-Stephan Saalfeld, Curtis Rueden, Albert Cardona, Christian Dietz, Jean-Yves
-Tinevez, Johannes Schindelin, Jonathan Hale, Lee Kamentsky, Larry Lindsey, Mark
-Hiner, Michael Zinsmaier, Martin Horn, Grant Harris, Aivar Grislis, John
-Bogovic, Steffen Jaensch, Stefan Helfrich, Jan Funke, Nick Perry, Mark Longair,
-Melissa Linkert and Dimiter Prodanov.</organizationName>
+					<organizationName>Tobias Pietzsch, Stephan Preibisch, Stephan Saalfeld,
+John Bogovic, Albert Cardona, Barry DeZonia, Christian Dietz, Jan Funke,
+Aivar Grislis, Jonathan Hale, Grant Harris, Stefan Helfrich, Mark Hiner,
+Martin Horn, Steffen Jaensch, Lee Kamentsky, Larry Lindsey, Melissa Linkert,
+Mark Longair, Brian Northan, Nick Perry, Dimiter Prodanov, Curtis Rueden,
+Johannes Schindelin, Jean-Yves Tinevez and Michael Zinsmaier.
+</organizationName>
 					<projectName>ImgLib2: a general-purpose, multidimensional image processing library.</projectName>
 				</configuration>
 			</plugin>
