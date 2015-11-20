@@ -30,22 +30,11 @@
 			<organization>MPI-CBG at Dresden</organization>
 			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
 			<roles>
-				<role>maintainer</role>
+				<role>lead</role>
 				<role>developer</role>
-				<role>architect</role>
-			</roles>
-			<timezone>+1</timezone>
-		</developer>
-		<developer>
-			<id>StephanPreibisch</id>
-			<name>Stephan Preibisch</name>
-			<email>stephan.preibisch@gmx.de</email>
-			<url>http://fly.mpi-cbg.de/~preibisch/</url>
-			<organization>MPI-CBG at Dresden</organization>
-			<organizationUrl>http://mpi-cbg.de/</organizationUrl>
-			<roles>
-				<role>developer</role>
-				<role>architect</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
 				<role>maintainer</role>
 			</roles>
 			<timezone>+1</timezone>
@@ -58,11 +47,11 @@
 			<organization>HHMI Janelia Research Campus</organization>
 			<organizationUrl>http://www.janelia.org/</organizationUrl>
 			<roles>
-				<role>architect</role>
-				<role>developer</role>
+				<role>lead</role>
+				<role>reviewer</role>
 				<role>maintainer</role>
 			</roles>
-			<timezone>-4</timezone>
+			<timezone>-5</timezone>
 		</developer>
 		<developer>
 			<id>ctrueden</id>
@@ -72,103 +61,17 @@
 			<organization>UW-Madison LOCI</organization>
 			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
 			<roles>
+				<role>founder</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
 				<role>maintainer</role>
-				<role>developer</role>
 			</roles>
 			<timezone>-6</timezone>
 		</developer>
 		<developer>
-			<id>dietzc</id>
-			<name>Christian Dietz</name>
-			<email>christian.dietz@uni-konstanz.de</email>
-			<url>http://www.informatik.uni-konstanz.de/berthold/mitglieder/christian-dietz/</url>
-			<organization>University of Konstanz</organization>
-			<organizationUrl>http://www.informatik.uni-konstanz.de/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>+1</timezone>
-		</developer>
-		<developer>
-			<id>tinevez</id>
-			<name>Jean-Yves Tinevez</name>
-			<email>jean-yves.tinevez@pasteur.fr</email>
-			<url>http://www.pasteur.fr/ip/easysite/pasteur/fr/recherche/plates-formes-technologiques/imagopole/plates-formes-imagopole/la-plate-forme-d-imagerie-dynamique/equipe-pfid/equipe-pfid-jyt</url>
-			<organization>Institut Pasteur</organization>
-			<organizationUrl>http://www.pasteur.fr/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>+1</timezone>
-		</developer>
-		<developer>
-			<id>bnorthan</id>
-			<name>Brian Northan</name>
-			<email>bnorthan@gmail.com</email>
-			<url>www.linkedin.com/pub/brian-northan/6/860/3a7</url>
-			<roles>
-				<role>developer</role>
-			</roles>
-		</developer>
-		<developer>
-			<id>dscho</id>
-			<name>Johannes Schindelin</name>
-			<email>johannes.schindelin@gmx.de</email>
-			<url>http://loci.wisc.edu/people/johannes-schindelin</url>
-			<organization>UW-Madison LOCI</organization>
-			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>-6</timezone>
-		</developer>
-		<developer>
-			<id>LeeKamentsky</id>
-			<name>Lee Kamentsky</name>
-			<email>leek@broadinstitute.org</email>
-			<url>http://www.broadinstitute.org/~leek/</url>
-			<organization>Broad Institute of MIT and Harvard</organization>
-			<organizationUrl>http://www.broadinstitute.org/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>-5</timezone>
-		</developer>
-	</developers>
-	<contributors>
-		<contributor>
-			<name>Barry DeZonia</name>
-			<url>http://loci.wisc.edu/people/barry-dezonia</url>
-			<organization>UW-Madison LOCI</organization>
-			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>-6</timezone>
-		</contributor>
-		<contributor>
-			<name>Albert Cardona</name>
-			<email>sapristi@gmail.com</email>
-			<url>http://albert.rierol.net/</url>
-			<organization>Institute of Neuroinformatics, Uni/ETH Zürich</organization>
-			<organizationUrl>http://www.ini.uzh.ch/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>+1</timezone>
-		</contributor>
-		<contributor>
-			<name>Larry Lindsey</name>
-			<email>llindsey@clm.utexas.edu</email>
-			<url>http://synapses.clm.utexas.edu/lab/lindsey/lindsey.htm</url>
-			<organization>University of Texas at Austin</organization>
-			<organizationUrl>http://www.utexas.edu/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>-6</timezone>
-		</contributor>
-		<contributor>
+			<id>hinerm</id>
 			<name>Mark Hiner</name>
 			<email>hiner@wisc.edu</email>
 			<url>http://loci.wisc.edu/people/mark-hiner</url>
@@ -176,28 +79,20 @@
 			<organizationUrl>http://loci.wisc.edu/</organizationUrl>
 			<roles>
 				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+				<role>maintainer</role>
 			</roles>
 			<timezone>-6</timezone>
-		</contributor>
-		<contributor>
-			<name>Grant Harris</name>
-			<email>gharris@mbl.edu</email>
-			<url>http://loci.wisc.edu/people/grant-harris</url>
-			<organization>MBL at Woods Hole</organization>
-			<organizationUrl>http://www.mbl.edu/</organizationUrl>
-			<roles>
-				<role>developer</role>
-			</roles>
-			<timezone>-5</timezone>
-		</contributor>
-		<contributor><name>Aivar Grislis</name></contributor>
-		<contributor><name>Martin Horn</name></contributor>
-		<contributor><name>Nick Perry</name></contributor>
-		<contributor><name>Michael Zinsmaier</name></contributor>
-		<contributor><name>Steffen Jaensch</name></contributor>
-		<contributor><name>Jan Funke</name></contributor>
-		<contributor><name>Mark Longair</name></contributor>
-		<contributor><name>Dimiter Prodanov</name></contributor>
+		</developer>
+	</developers>
+	<contributors>
+		<!--
+		NB: Need a least one element to override the parent.
+		See: https://issues.apache.org/jira/browse/MNG-5220
+		-->
+		<contributor><name>None</name></contributor>
 	</contributors>
 
 	<mailingLists>
