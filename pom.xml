@@ -95,23 +95,6 @@
 		<contributor><name>None</name></contributor>
 	</contributors>
 
-	<mailingLists>
-		<mailingList>
-			<name>ImageJ-devel</name>
-			<subscribe>http://imagej.net/mailman/listinfo/imagej-devel</subscribe>
-			<unsubscribe>http://imagej.net/mailman/listinfo/imagej-devel</unsubscribe>
-			<post>imagej-devel@imagej.net</post>
-			<archive>http://imagej.net/pipermail/imagej-devel/</archive>
-		</mailingList>
-		<mailingList>
-			<name>Fiji-devel</name>
-			<subscribe>http://groups.google.com/group/fiji-devel</subscribe>
-			<unsubscribe>http://groups.google.com/group/fiji-devel</unsubscribe>
-			<post>fiji-devel@googlegroups.com</post>
-			<archive>http://groups.google.com/group/fiji-devel</archive>
-		</mailingList>
-	</mailingLists>
-
 	<scm>
 		<connection>scm:git:git://github.com/imglib/pom-imglib2</connection>
 		<developerConnection>scm:git:git@github.com:imglib/pom-imglib2</developerConnection>
