@@ -114,6 +114,7 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 
 		<imglib2.version>4.0.0</imglib2.version>
 		<imglib2-roi.version>0.4.5</imglib2-roi.version>
+		<imglib2-cache.version>1.0.0-beta-1</imglib2-cache.version>
 		<imglib2-ij.version>2.0.0-beta-36</imglib2-ij.version>
 		<imglib2-realtransform.version>2.0.0-beta-36</imglib2-realtransform.version>
 		<imglib2-ui.version>2.0.0-beta-32</imglib2-ui.version>
