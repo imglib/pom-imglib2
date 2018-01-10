@@ -15,7 +15,7 @@
 	<packaging>pom</packaging>
 
 	<name>ImgLib2 Parent POM</name>
-	<description>Parent POM for imglib2 projects. This is an intermediate layer to move imglib2 forward as a whole, independently of other SciJava projects. A stable set of versions is propagated to pom-scijava frequently. Projects consuming imglib2 should normally inherit pom-scijava rather than pom-imglibi2.</description>
+	<description>Parent POM for imglib2 projects. This is an intermediate layer to move imglib2 forward as a whole, independently of other SciJava projects. A stable set of versions is propagated to pom-scijava frequently. Projects consuming imglib2 should normally inherit pom-scijava rather than pom-imglib2.</description>
 	<url>http://imglib2.net/</url>
 	<inceptionYear>2009</inceptionYear>
 	<organization>
