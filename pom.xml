@@ -112,7 +112,7 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 
 		<!-- overridden ImgLib2 component versions -->
 
-		<!-- <imglib2.version>4.6.0</imglib2.version> -->
+		<imglib2.version>4.6.1</imglib2.version>
 		<imglib2-algorithm.version>0.8.2</imglib2-algorithm.version>
 		<imglib2-algorithm-fft.version>0.1.5</imglib2-algorithm-fft.version>
 		<imglib2-algorithm-gpl.version>0.2.2</imglib2-algorithm-gpl.version>
