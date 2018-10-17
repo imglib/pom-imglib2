@@ -116,7 +116,7 @@ Jean-Yves Tinevez and Michael Zinsmaier.</license.copyrightOwners>
 		<!-- <imglib2-algorithm.version>0.9.0</imglib2-algorithm.version> -->
 		<!-- <imglib2-algorithm-fft.version>0.2.0</imglib2-algorithm-fft.version> -->
 		<!-- <imglib2-algorithm-gpl.version>0.2.3</imglib2-algorithm-gpl.version> -->
-		<!-- <imglib2-cache.version>1.0.0-beta-9</imglib2-cache.version> -->
+		<imglib2-cache.version>1.0.0-beta-11</imglib2-cache.version>
 		<!-- <imglib2-ij.version>2.0.0-beta-43</imglib2-ij.version> -->
 		<imglib2-realtransform.version>2.0.1</imglib2-realtransform.version>
 		<imglib2-roi.version>0.6.0</imglib2-roi.version>
